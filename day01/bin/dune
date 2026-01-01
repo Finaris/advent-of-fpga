@@ -1,0 +1,5 @@
+(executable
+ (name simulate)
+ (libraries day01 hardcaml hardcaml_waveterm stdio)
+ (preprocess
+  (pps ppx_jane)))
